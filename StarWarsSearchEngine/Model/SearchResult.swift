@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SeachResult: Codable{
+struct SearchResult: Codable{
     let resultCount : Int
     let results : [StarWars]
 }
